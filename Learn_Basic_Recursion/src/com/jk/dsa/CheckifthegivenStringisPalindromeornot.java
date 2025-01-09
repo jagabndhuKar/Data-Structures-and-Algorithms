@@ -27,7 +27,6 @@ public class CheckifthegivenStringisPalindromeornot {
 				return false;
 			left=left+1;
 			right=right-1;
-			System.err.println(left+" "+right);
 			return checkifthegivenStringisPalindromeornot2(s,left,right);
 		}
 	
